@@ -9,12 +9,29 @@
 	<body>
 		
 		<div>
+			<h4>Username <input type="text" id="userName"></h4>
+			<h4>Password <input type="text" id="password"></h4>
+			<h4>Email Address <input type="text" id="emailAddress"></h4>
+			<button onCLick="checkForm()">Submit</button>
 		</div>
 
 		
 
 		<script>
-			
+			var userName = document.getElementById("userName").value
+			var password = document.getElementById("password").value
+
+			function checkForm(userName,password) {
+				if (password === "12345678" && checkPassword(password) == True) {
+
+				} else {
+					alert("Wrong!")
+				}
+				function checkPassword(password) {
+
+				}
+
+			}
 		</script>
 
 	</body>
