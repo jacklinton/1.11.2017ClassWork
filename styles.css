@@ -1,0 +1,21 @@
+.leftButton {
+	display: inline-block;
+	margin-left: 200px;
+	float: left;
+
+}
+
+.rightButton {
+	display: inline-block;
+	margin-right: 200px;
+	float: right;
+
+}
+
+.yell {
+	display: inline-block;
+	float: center;
+	text-align: center;
+	color: red;
+	margin-left: 250px;
+}

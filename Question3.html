@@ -1,0 +1,28 @@
+<DOCTYPE html5>
+<html>
+	
+	<head>
+		<title>Key Listener</title>
+
+
+	</head>
+	<body>
+		
+		
+		<input type="text" onKeyPress="myFunction()" id="theLetter">
+		<div>
+			<h1 id="printKey"></h1>
+		</div>
+
+		
+
+		<script>
+			
+			function myFunction(){
+				var letter = document.getElementById("theLetter").value
+				document.getElementById("printKey").innerHTML=letter
+			}
+		</script>
+
+	</body>
+</html>

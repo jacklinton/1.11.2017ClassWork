@@ -1,0 +1,10 @@
+.angryBlock{
+	display: inline-block;
+	height: 500px;
+	width: 500px;
+	background-color: lightgreen;
+	color: purple;
+	margin-left: 350px;
+	margin-top: 50px;
+	text-align: center;
+}

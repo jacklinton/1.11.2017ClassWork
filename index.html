@@ -1,0 +1,39 @@
+<DOCTYPE html5>
+<html>
+	<head>
+		<title></title>
+	
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+
+	</head>
+	<body>
+		<div class="leftbutton">
+			<button onCLick = "whoIsRight()">Click Me!</button>
+		</div>
+			<div Class="yell" id="whoIsRight">
+				<h1></h1>
+			</div>
+		<div class="rightButton">
+		<button onClick = "iAmRight()">Click Me!</button>
+		</div>
+		<script>
+			function whoIsRight(){
+				document.getElementById("whoIsRight").innerHTML="<h1>I'M RIGHT</h1>"
+			}
+		</script>
+		<script>
+			function iAmRight() {
+				document.getElementById("whoIsRight").innerHTML="<h1>NO, I'M RIGHT</h1>"
+			}
+		</script>
+
+
+
+
+
+	
+	</body>
+</html>
