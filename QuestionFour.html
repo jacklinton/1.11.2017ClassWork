@@ -28,6 +28,17 @@
 					alert("Wrong!")
 				}
 				function checkPassword(password) {
+					passwordArray = password.split()
+					for (var i = 0; i<passwordArray.length; i++) {
+					 	if parseInt(i) == NaN {
+					 		status = false
+					 	}
+					 	else {
+					 		status = True
+					 		return status
+					 	}
+					 	return status
+					}
 
 				}
 
