@@ -14,35 +14,14 @@
 			<h4>Email Address <input type="text" id="emailAddress"></h4>
 			<button onCLick="checkForm()">Submit</button>
 		</div>
-
+		<div id="changeMe">
+			<h1>Sign In!</h1>
+		</div>
 		
 
-		<script>
-			var userName = document.getElementById("userName").value
-			var password = document.getElementById("password").value
-
-			function checkForm(userName,password) {
-				if (password === "12345678" && checkPassword(password) == True) {
-
-				} else {
-					alert("Wrong!")
-				}
-				function checkPassword(password) {
-					passwordArray = password.split()
-					for (var i = 0; i<passwordArray.length; i++) {
-					 	if parseInt(i) == NaN {
-					 		status = false
-					 	}
-					 	else {
-					 		status = True
-					 		return status
-					 	}
-					 	return status
-					}
-
-				}
-
-			}
+		<script type = "text/javascript" src ="theRealQuestionFour.js">
+			
+			
 		</script>
 
 	</body>
